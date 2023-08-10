@@ -39,5 +39,6 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ## Task 3
 
-- Will redesign the narbar bar, puttin the navbar inline with the logo, maybe searchbar in the middle
-- style the page content on the left and remove the second searchbar ( if is the same from the one from the top)
+- I Will redesign the narbar bar, adding the navbar inline with the logo, and searchbar in the middle
+- styling the page content on the left
+- changing the colors and searching inspiration for a modern design
