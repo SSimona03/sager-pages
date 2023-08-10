@@ -24,7 +24,7 @@ function Results({ searchResults }) {
         <div className="card" key={key}>
           <div>{items.document.play_name}</div>
           <div>
-            <b>{items.document.speaker}</b> : "
+            <b>{items.document.speaker}</b> : &quot;
             {
               (items.highlight.text_entry == null || items.highlight.text_entry == undefined) ?
                 (<span
@@ -36,7 +36,7 @@ function Results({ searchResults }) {
                 />)
             }
 
-            "
+            &quot;
           </div>
         </div>
       ))}
