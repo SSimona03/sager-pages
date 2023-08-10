@@ -33,14 +33,12 @@ function Searchbar({ onSearch }) {
   useEffect(() => {
     const fetchData = async () => {
       if (!inputValue) return;
-
       const data = await fetch(
         `/api/data?searchInput=${inputValue}&size=${formData.size}`,
         {
           cache: "force-cache",
         }
       );
-
       if (data.status === 200) {
         const results = await data.json();
         onSearch(results);
@@ -48,10 +46,9 @@ function Searchbar({ onSearch }) {
         onSearch("error");
       }
     };
-
     // call the function
     const result = fetchData().catch(console.error);
-  }, [debouncedKeyword, formData]);
+  }, [debouncedKeyword, formData, inputValue, onSearch]);
 
   return (
     <div className="nav-container">
