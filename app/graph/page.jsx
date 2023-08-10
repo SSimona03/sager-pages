@@ -229,12 +229,12 @@ function Graph() {
                     <canvas id="chart" className="mt-0 h-10"></canvas>
                     {/******************* labels *******************/}
                     <div className="pb-5 px-12 w-full  flex flex-row justify-between">
-                        <div className={`table-label border-b-8 text-lg border-[#66a3ff]`}> C &#60; A </div>
-                        <div className={`table-label border-b-8 text-lg border-[#272626]`}> C &#60; G </div>
-                        <div className={`table-label border-b-8 text-lg border-[#ff6666]`}> C &#60; T </div>
-                        <div className={`table-label border-b-8 text-lg border-[#928787]`}> T &#60; A </div>
-                        <div className={`table-label border-b-8 text-lg border-[#00b33c]`}> T &#60; C </div>
-                        <div className={`table-label border-b-8 text-lg border-[#ff99c2]`}> T &#60; G </div>
+                        <div className={`table-label border-b-8 text-lg border-[#66a3ff]`}> C &gt; A </div>
+                        <div className={`table-label border-b-8 text-lg border-[#272626]`}> C &gt; G </div>
+                        <div className={`table-label border-b-8 text-lg border-[#ff6666]`}> C &gt; T </div>
+                        <div className={`table-label border-b-8 text-lg border-[#928787]`}> T &gt; A </div>
+                        <div className={`table-label border-b-8 text-lg border-[#00b33c]`}> T &gt; C </div>
+                        <div className={`table-label border-b-8 text-lg border-[#ff99c2]`}> T &gt; G </div>
                     </div>
                     {/******************* table display bars *******************/}
                     <Bar options={options} data={data} />

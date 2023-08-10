@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-Live project : https://next13-pages.vercel.app/
 
 This is a Next13 project with React. It is a 3 pages website, Homepage, Search and Grapth.
 
